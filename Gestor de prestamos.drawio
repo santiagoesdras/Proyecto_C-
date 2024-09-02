@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.7">
   <diagram name="Página-1" id="OE_CaP_l7N5O4o92drND">
-    <mxGraphModel dx="1221" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="489" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,42 @@
         </mxCell>
         <mxCell id="hMlwFUBNdif5zMeWaXms-19" value="+ deleteLoan () : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-14">
           <mxGeometry y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-26" value="carLoan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="222" width="231" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-27" value="- interest : const double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-26">
+          <mxGeometry y="30" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-28" value="+ interestCalculate () : string override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-26">
+          <mxGeometry y="60" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-29" value="+ loanInfo () : vector &amp;lt;string&amp;gt; override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-26">
+          <mxGeometry y="90" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-32" value="mortgageLoan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="362" width="231" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-33" value="- interest : const double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-32">
+          <mxGeometry y="30" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-34" value="+ interestCalculate () : string override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-32">
+          <mxGeometry y="60" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-35" value="+ loanInfo () : vector &amp;lt;string&amp;gt; override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-32">
+          <mxGeometry y="90" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-36" value="personalLoan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="493" width="231" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-37" value="- interest : const double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-36">
+          <mxGeometry y="30" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-38" value="+ interestCalculate () : string override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-36">
+          <mxGeometry y="60" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMlwFUBNdif5zMeWaXms-39" value="+ loanInfo () : vector &amp;lt;string&amp;gt; override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hMlwFUBNdif5zMeWaXms-36">
+          <mxGeometry y="90" width="231" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
