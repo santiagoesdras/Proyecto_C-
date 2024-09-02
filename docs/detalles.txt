@@ -1,0 +1,39 @@
+Requisitos de implementacion
+-Polimorfismo
+-Herencia
+-Abstraccion
+-Encapsulamiento
+-Metodos
+-Metodos virtuales
+-Arreglos
+-Destructores
+-Manejo de memoria
+-Atributos exclusivamente en private con metodos get y set
+-Crear una clase "Banco" que administre una lista (arreglo dinamico) de objetos tipo prestamo
+-Asegurar que los destructores se llamen correctamenta para liberar memoria
+-Validacione de datos y manejo de excepciones
+
+Propiedades del prestamo
+-Monto (cantidad de dinero)
+-Tasa de interes 
+-Plazo de pago
+
+Metodos para los prestamos
+-Calculo de intereses a la fecha actual (mostrar el total abonado a interes y total abonado a capital)
+-Mostrar informacion del prestamo
+-Metodo global para mostrar informacion de TODOS los prestamos
+-Metodos en la clase "Banco" para agregar, eliminar y mostrar prestamos (cuando se elimine un prestamo se debe llamar al destructor)
+
+
+Tipos de prestamos
+-Prestamos personales (interes simple-7.85%)
+-Prestamos hipotecarios (interes compuesto banco 6% y FHA 1.26%)
+-Prestamos de automoviles (interes anual 9.75%)
+
+
+Opciones del menu
+-Agregar un nuevo prestamo
+-Eliminar un prestamo existente
+-Mostrar todos los prestamos
+-Calcular y mostrar el interes de cada prestamo
+
